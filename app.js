@@ -1,7 +1,7 @@
 if(process.env.NODE_ENV!="prodction"){
     require('dotenv').config();
 }
-
+//Main Page
 // console.log(process.env.SECRET);
 const express = require("express");
 const app = express();
